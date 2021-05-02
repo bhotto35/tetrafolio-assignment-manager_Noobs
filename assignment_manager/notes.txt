@@ -1,0 +1,1 @@
+select ga.id, ga.name from general_assignments as ga inner join subject as sub on ga.subject_id = sub.id inner join sessions as sess on sub.session_id = sess.id
